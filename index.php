@@ -18,9 +18,9 @@
     <title>Robotica</title>
 
     <!-- de slideshow -->
-    <?php
+    <!-- <?php
     include("./slideshow.php");
-    ?>
+    ?> -->
 
 
     <!-- Image and text -->
@@ -28,14 +28,16 @@
 
 <body>
     <main class="container">
-        <div class="row" id="navbar">
-            <div class="col-12">
-                <?php
-          include("./nav.php");
-          ?>
+    <div class="row" id="navbar">
+        <div class="col-12">
+            <?php
+                    include("./nav.php");
+                    ?>
             </div>
         </div>
-        <br>
+    </div>
+    
+    <br>
         <div class="row" id="content">
             <div class="col-12">
                 <?php
@@ -54,7 +56,7 @@
             <div class="col-12">
                 <?php
                   include("./footer.php");
-                ?>
+                  ?>
             </div>
         </div>
     </main>

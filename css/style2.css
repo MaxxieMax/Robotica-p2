@@ -1,7 +1,7 @@
 /* de style voor de informatie tab */
 
 body{
-    background-color: #00aeef;
+    background-color: #00aeef !important;
 }
 
 /* #content{
@@ -52,11 +52,11 @@ body{
 
 .card{
     background-color: #000;
-    color: #fd0;
+    color: #00aeef;
     border: 2px solid #fd0;
     margin-top: 15px;
     border-radius: 60px;
-    text-align: center;
+    
 }
 
 /* style voor de texten */
@@ -86,4 +86,9 @@ body{
 mark.white {
     color:#fff;
     background: none;
+}
+
+#card_collapse_text{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
 }

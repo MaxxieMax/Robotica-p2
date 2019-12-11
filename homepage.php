@@ -10,7 +10,7 @@
 
 <div class="row">
     <div class="col-5">
-        <div class="card">
+        <div class="card_V1">
             <div class="card-body">
                 <h2 class="card-text" id="card_text"><mark class="white">MBO Utrecht</mark> écht iets voor jou?</h2>
             </div>
@@ -24,9 +24,21 @@
 
 
     <div class="col-4">
-        <div class="card">
+        <div class="card_V1">
             <div class="card-body">
                 <h2 class="card-text" id="card_text"><mark class="white">Meld</mark> je nu aan!</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="card_V2">
+            <div class="card-body">
+                <h3>via hier kut u ook naar andere ICT opleidingen gaan :
+                    <a href="https://www.mboutrecht.nl/opleidingen/ict-en-mediabeheer/">ICT- en mediabeheer</a>,
+                    <a
+                        href="https://www.mboutrecht.nl/opleidingen/applicatie-en-mediaontwikkelaar-gamedeveloper-versneld/">Applicatie
+                        en mediaontwikkelaar</a>. </h3>
+                </p>
             </div>
         </div>
     </div>

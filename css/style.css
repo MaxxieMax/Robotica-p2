@@ -1,14 +1,7 @@
 body{
-    background-color: #00aeef;
+    /* background-color: #00aeef; */
+    background-image:url(../img/regen.jpg);
 }
-
-/* #content{
-    background-color: blanchedalmond;
-    border: 5px solid rgb(0, 0, 0);
-    margin-top: 15px;
-    min-height: auto;
-    border-radius: 25px;
-} */
 
 #jumbotron1{
     background-color: #000;
@@ -42,13 +35,12 @@ body{
     margin-top: 5px;
     min-height: 10px;
     border-radius: 28px;
-    
 }
 #foto_hoofd{
     margin: 0px 50px 0px 0px;
 }
 
-.card{
+.card_V1{
     background-color: #000;
     color: #fd0;
     border: 2px solid #fd0;
@@ -56,6 +48,20 @@ body{
     border-radius: 60px;
     text-align: center;
 }
+
+
+.card_V2{
+    background-color: #000;
+    color: #fd0;
+    border: 2px solid #fd0;
+    margin-top: 15px;
+    border-radius: 60px;
+    text-align: center;
+    /* height: 45px; */
+    /* vertical-align: text-top; */
+}
+
+
 
 /* style voor de texten */
 #nav_text_1{
