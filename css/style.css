@@ -91,3 +91,8 @@ mark.white {
     color:#fff;
     background: none;
 }
+
+#administratieText{
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+}
