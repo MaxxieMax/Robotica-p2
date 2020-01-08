@@ -12,7 +12,9 @@
           class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" id="nav_text_1" href="index.php?content=informatie">Informatie</a>
       <a class="nav-item nav-link" id="nav_text_1" href="index.php?content=administartie">Administratie</a>
+      <a class="nav-item nav-link" id="nav_text_1" href="index.php?content=read">Aanmeldingen</a>
       <a class="nav-item nav-link" id="nav_text_1" href="#">Game</a>
+
     </div>
   </div>
 </nav>

@@ -26,6 +26,8 @@
     <!-- Image and text -->
 </head>
 
+<div class="background"></div>
+
 <body>
     <main class="container">
     <div class="row" id="navbar">

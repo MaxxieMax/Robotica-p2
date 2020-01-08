@@ -16,14 +16,14 @@
       <div class="col-6">
         <form action="./index.php?content=create" method="POST">
           <div class="form-group">
-            <label for="firstname" id="administratieText">Burgerservicenummer</label>
-            <input type="text" class="form-control" id="Burgerservicenummer" aria-describedby="BurgerservicenummerHelp"
-              name="Burgerservicenummer" placeholder="Invoer Burgerservicenummer">
-            <small id="BurgerservicenummerHelp" class="form-text text-muted">(9 cijfers)</small>
+            <label for="number" id="administratieText">Burgerservicenummer</label>
+            <input type="text" class="form-control" id="number" aria-describedby="numberHelp"
+              name="number" placeholder="Invoer Burgerservicenummer">
+            <small id="numberHelp" class="form-text text-muted">(9 cijfers)</small>
           </div>
           <!-- email -->
           <div class="form-group">
-            <label for="infix" id="administratieText">E-mailadres</label>
+            <label for="email" id="administratieText">E-mailadres</label>
             <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="email"
               placeholder="Invoer E-mailadres">
           </div>
@@ -35,20 +35,22 @@
           </div>
           <!-- geboortedatum -->
           <div class="form-group">
-            <label for="Geboortedatum" id="administratieText">Geboortedatum</label>
-            <input type="text" class="form-control" id="Geboortedatum" aria-describedby="GeboortedatumHelp" name="Geboortedatum"
-              placeholder="Invoer Geboortedatum">
+            <label for="date" id="administratieText">Geboortedatum</label>
+            <input type="text" class="form-control" id="date" aria-describedby="dateHelp"
+              name="date" placeholder="YYYY-MM-DD">
           </div>
           <!-- Mobiel Nummer -->
           <div class="form-group">
-            <label for="MobielNummer" id="administratieText">Mobiel Nummer</label>
-            <input type="text" class="form-control" id="MobielNummer" aria-describedby="MobielNummerHelp" name="MobielNummer"
-              placeholder="Invoer Mobiel Nummer">
+            <label for="Mnumber" id="administratieText">Mobiel Nummer</label>
+            <input type="text" class="form-control" id="Mnumber" aria-describedby="MnumberHelp"
+              name="Mnumber" placeholder="Invoer Mobiel Nummer">
           </div>
-          <button type="submit" class="btn btn-primary">Versturen</button>
+          <!-- de buttons -->
+          <button type="submit" class="btn btn-secondary">Versturen</button>
+          <a class="btn btn-secondary" href="index.php?content=read" role="button">Alle aanmeldingen</a>
         </form>
       </div>
-      <div class="col-6">
+      <div class="col-6">     
         <img src="./img/RobotInloggen.png" alt="Robot inloggen">
       </div>
     </div>

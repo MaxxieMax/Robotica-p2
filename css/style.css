@@ -1,7 +1,18 @@
 body{
-    /* background-color: #00aeef; */
-    background-image:url(../img/regen.jpg);
+    background-image: url(../img/regen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+/* .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image:url(../img/regen.jpg);
+} */
 
 #jumbotron1{
     background-color: #000;
@@ -67,6 +78,7 @@ body{
 #nav_text_1{
     color: #000;
     font-family: 'Ubuntu', sans-serif;
+     
 }
 
 #footer1{

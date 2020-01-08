@@ -4,7 +4,7 @@
     <h1 class="display-4" id="Jumbotron_title">informatie</h1>
     <p class="lead" id="jumbotron_text">Welkom bij de informatie pagina van de opleiding Robotica.</p>
     <hr class="my-4">
-    <h3 id="jumbotron_text">Op deze pagina kun u allerlij informatie vinden over deze opleiding.</h3>
+    <h3 id="jumbotron_text">Op deze pagina kun u allerlei informatie vinden over deze opleiding.</h3>
     <p class="lead">
     </p>
 </div>
