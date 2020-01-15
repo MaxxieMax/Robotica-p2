@@ -17,11 +17,6 @@
 
     <title>Robotica</title>
 
-    <!-- de slideshow -->
-    <!-- <?php
-    include("./slideshow.php");
-    ?> -->
-
 
     <!-- Image and text -->
 </head>

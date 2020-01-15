@@ -1,15 +1,19 @@
 <?php
 include("./connectdb.php");
-$sql = "SELECT * FROM `aanmeldingen`";
+$sql = "SELECT * FROM `PRO2_Aanmeldingen`";
 $result = mysqli_query($conn, $sql);
 $records = "";
 while ($record = mysqli_fetch_assoc($result)) {
     $records .= "<tr>
-                <td scope='row'>" . $record["burgerservicenummer"] . "</td>
+                <th scope='row'>" . $record["id"] . "<td>" . $record["burgerservicenummer"] . "</td>
                 <td>" . $record["E-mail"] . "</td>
                 <td>" . $record["Voornaam"] . "</td>
                 <td>" . $record["geboortedatum"] . "</td>
                 <td>" . $record["Mobiele nummer"] . "</td>
+                <td>
+                    <a href='./delete.php?id=" .  $record["id"]  ."'>
+                    <img src='./img/b_drop.png' alt='kruisje'>
+                </td>
                 </tr>";
 }
 
@@ -18,6 +22,7 @@ while ($record = mysqli_fetch_assoc($result)) {
     <table class="table table-dover">
         <thead>
             <tr>
+                <th scope="col">ID</th>
                 <th scope="col">burgerservicenummer</th>
                 <th scope="col">E-mail</th>
                 <th scope="col">Voornaam</th>

@@ -18,12 +18,14 @@ include("./connectdb.php");
     $Mnumber = $_POST["Mnumber"];
 
 
-    $query = "INSERT INTO `aanmeldingen` (`burgerservicenummer`,
+    $query = "INSERT INTO `PRO2_Aanmeldingen` (`id`,
+                                `burgerservicenummer`,
                                 `E-mail`,
                                 `Voornaam`,
                                 `geboortedatum`,
                                 `Mobiele nummer`)
-                         VALUES ('$number',
+                         VALUES (NULL,
+                                '$number',
                                 '$email',
                                 '$firstname',
                                 '$date',
@@ -32,7 +34,7 @@ include("./connectdb.php");
 
 mysqli_query($conn, $query);
 
-header("Refresh: 1; index.php?content=homepage")
+header("Refresh: 1; index.php? content=read")
 ?>
 
 <div class="col-6">
