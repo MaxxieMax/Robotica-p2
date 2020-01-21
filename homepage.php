@@ -33,7 +33,7 @@
     <div class="col-12">
         <div class="card_V2">
             <div class="card-body">
-                <h3>via hier kut u ook naar andere ICT opleidingen gaan :
+                <h3>Via hier kut u ook naar andere ICT opleidingen gaan :
                     <a href="https://www.mboutrecht.nl/opleidingen/ict-en-mediabeheer/">ICT- en mediabeheer</a>,
                     <a
                         href="https://www.mboutrecht.nl/opleidingen/applicatie-en-mediaontwikkelaar-gamedeveloper-versneld/">Applicatie
